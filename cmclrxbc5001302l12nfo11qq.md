@@ -3,6 +3,7 @@ title: "Daily Bugle – TryHackMe Write‑up"
 datePublished: Wed Jul 02 2025 09:48:11 GMT+0000 (Coordinated Universal Time)
 cuid: cmclrxbc5001302l12nfo11qq
 slug: daily-bugle-tryhackme-writeup
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751450035856/f25e3c0d-1a11-4b79-97c8-1b01bcda7eca.png
 
 ---
 
