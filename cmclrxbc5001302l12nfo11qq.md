@@ -35,7 +35,6 @@ Thử đọc robots.txt:
 
 ![image2.png](https://github.com/huynhlonghehe/Daily_Bugle/blob/main/media/image2.png?raw=true align="left")
 
-  
 /administrator/, /bin/, /cache/, /components/, /language/, /libraries/, /logs/, /modules/, /plugins/, /tmp/...
 
 * Đặc biệt thư mục /administrator/ có thể là cổng vào trang quản trị Joomla.
@@ -85,7 +84,7 @@ Dùng script `joomblaH` từ GitHub để khai thác
 
 Kết quả thu được người dùng:
 
-* Found user \['811', 'Super User', 'jonah', '[jonah@tryhackme.com](mailto:jonah@tryhackme.com)','$2y$10$0veO/JSFh4389Lluc4Xya.dfy2MF.bZhz0jVMw.V.d3p12kBtZutm', '', ''\]  
+* Found user \['811', 'Super User', 'jonah', '[jonah@tryhackme.com](mailto:jonah@tryhackme.com)','$2y$10$0veO/JSFh4389Lluc4Xya.dfy2MF.bZhz0jVMw.V.d3p12kBtZutm', '', ''\]
     
 
 ![image.png](https://github.com/huynhlonghehe/Daily_Bugle/blob/main/media/image.png?raw=true align="left")
@@ -142,9 +141,9 @@ Chúng ta dùng *php‑reverse‑shell* của **pentestmonkey** (≈ 200 dòn
 
 ![image17.png](https://github.com/huynhlonghehe/Daily_Bugle/blob/main/media/image17.png?raw=true align="left")
 
-**Cách B – upload template mới/php mới** (ít log hơn, khó bị phát hiện hơn). Upload ZIP/file php chứa payload, sau đó truy cập file `.php` để kích hoạt.  
-  
-            + Cách làm tương tự nhưng ta sẽ thực hiện upload/tạo file shell thay vì cố gắn chỉnh sửa
+**Cách B – upload template mới/php mới** (ít log hơn, khó bị phát hiện hơn). Upload ZIP/file php chứa payload, sau đó truy cập file `.php` để kích hoạt.
+
+\+ Cách làm tương tự nhưng ta sẽ thực hiện upload/tạo file shell thay vì cố gắn chỉnh sửa
 
 ![image18.png](https://github.com/huynhlonghehe/Daily_Bugle/blob/main/media/image18.png?raw=true align="left")
 
@@ -183,7 +182,7 @@ Chúng ta dùng *php‑reverse‑shell* của **pentestmonkey** (≈ 200 dòn
 
 * Đọc configuration.php phát hiện biến **password**, rất có thể user **jjameson** sử dụng password này, và lúc đầu recon phát hiện trên server có mở port **ssh**
     
-* Giờ thử ssh vào server bằng user jjameson và với password vừa tìm được  
+* Giờ thử ssh vào server bằng user jjameson và với password vừa tìm được
     
 
 ![image26.png](https://github.com/huynhlonghehe/Daily_Bugle/blob/main/media/image26.png?raw=true align="left")
